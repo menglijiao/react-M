@@ -28,9 +28,20 @@ export default class App extends Component {
         ]
     }
     componentWillMount(){
-        // console.log(this.event(this.data,1))
-    }
+        const data = ['item1', [], 'item3'];
+        data.forEach((item,index)=>{
+            if(index === 1){
+                data[index] = 'item2'
+                item[0] = 'a'
+            }
+            console.log(item);
+        });
+        console.log(data)
 
+
+
+
+    }
 
 
     render() {

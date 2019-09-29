@@ -15,7 +15,7 @@ export default class Content extends Component{
         this.state = {
             text:props.value,
             a:[1,2].map(item=>{
-                console.log(item)
+                // console.log(item)
 
                 return item*2
             }),
@@ -23,18 +23,18 @@ export default class Content extends Component{
             visible:false
         };
         this.event();
-        console.log('content的constructor')
+        // console.log('content的constructor')
     }
     //初始状态执行一次，之后就不执行了。这里的setState,render会等setState修改完状态再渲染，因此就算这里用了setState,render也只渲染一次
     componentWillMount(){
-        console.log('content的componentWillMount')
+        // console.log('content的componentWillMount')
         this.setState({
             b:'bbb'
         });
     }
     //这里用setState,就会触发页面二次渲染，因为这个是在render之后执行，所以这样用setState会触发render以及这里调用的组件的componentWillReceiveProps和render
     componentDidMount(){
-        console.log('content的componentDidMount')
+        // console.log('content的componentDidMount')
     }
     //初始化时不会执行，但是父组件里用了setState后，子组件重新渲染后，同时这个钩子函数也会执行，无论是否有参数传递下来,
     //也无论传递的参数是否相同
@@ -43,7 +43,7 @@ export default class Content extends Component{
     // 注意：当父组件第二次渲染时，这个钩子函数执行后，render才执行，此时在里面用setState修改状态时，render会等状态修改完就猜执行，因此render只执行一次吗，而不会执行两次。因此跟直接在render里用this.props.value的效果是一样的。两种可选择一种方式即可。一般如果参数是回显用，则执行在render用this.props.value,其他的就在这里钩子函数里更新状态。
     //这里用setState,是在render之前，因此render会等setState修改完状态再渲染，因此这里用了setState也不会触发页面二次渲染
     componentWillReceiveProps(props){
-        console.log('content的componentWillReceiveProps')
+        // console.log('content的componentWillReceiveProps')
         this.setState({
             b:'bbb'
         });
@@ -55,7 +55,7 @@ export default class Content extends Component{
     }
     event = ()=>{
 
-        console.log('event执行')
+        // console.log('event执行')
     };
 
     onChange=(text)=>{
