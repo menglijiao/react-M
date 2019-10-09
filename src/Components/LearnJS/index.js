@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Button} from 'antd';
 import './css.less';
 
 
@@ -28,27 +29,27 @@ export default class App extends Component {
         ]
     }
     componentWillMount(){
-        const data = ['item1', [], 'item3'];
-        data.forEach((item,index)=>{
-            if(index === 1){
-                data[index] = 'item2'
-                item[0] = 'a'
-            }
-            console.log(item);
-        });
-        console.log(data)
-
-
-
-
+        this.event()
     }
 
+    event = (value = '111',text = '222')=>{
+        console.log(value,text)
+    };
 
     render() {
         return (
-            <div className="clearfix">
-                aaaaaaaaaa
+            <div>
+                <Button onClick={()=>this.event('sss')}>
+                    有参数
+                </Button>
+                <Button onClick={()=>this.event()}>
+                    无参数
+                </Button>
+                <Button onClick={this.event}>
+                    无参数,直接调用
+                </Button>
             </div>
+
         );
 }
 }

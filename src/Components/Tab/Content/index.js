@@ -68,40 +68,8 @@ export default class Content extends Component{
         return (
             <div>
                 <Input value={this.state.text} onChange={this.onChange}/>
-                <Button>权限设置</Button>
-                <div className={'selete'}>FFV啊废物企鹅VB阿尔啊哒哒哒哒哒哒多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多多
-                </div>
-                <div style={{width:200}} className={'aaa'}>
-                    <Select
-                        mode="multiple"
-                        style={{ width: '100%' }}
-                        placeholder="无"
-                        value={['001','002','003','004']}
-                    />
-                </div>
-
-
-                <Modal
-                    title="新增变更标注"
-                    visible={this.state.visible}
-                    onCancel={()=>this.setState({
-                        visible:false
-                    })}
-                    maskClosable={false}
-                    footer={null}
-                    centered
-                    width={446}
-                    style={{height:400}}
-                    wrapClassName={'sameStyle'}
-                >
-                    <div className={"content"}></div>
-                    <div className={"btn"}>
-                        <Button type="primary">应用</Button>
-                        <Button>确定</Button>
-                        <Button>取消</Button>
-                    </div>
-                </Modal>
                 <One/>
-            </div>        )
+            </div>
+        )
     }
 }
