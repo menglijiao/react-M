@@ -1,9 +1,10 @@
 import React,{ Component } from 'react';
-import {Layout, Menu, Breadcrumb, Icon } from 'antd';
+import {Layout, Menu, Breadcrumb, Icon,Button } from 'antd';
 import 'antd/dist/antd.css';
 import Box from './Box/index';
 import Tab from './Tab/index';
-import LearnJS from './LearnJS/index'
+import ImgShow from './ImgShow/index'
+import LearnJs from './LearnJs/index'
 import './css.less';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -78,7 +79,8 @@ export default class Components extends Component{
                             </Breadcrumb>
                             {/*<Box/>*/}
                             <Tab/>
-                            <LearnJS/>
+                            <ImgShow/>
+                            <LearnJs/>
                         </Content>
                         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
                     </Layout>

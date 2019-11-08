@@ -1,0 +1,50 @@
+
+.modalStyle{
+    .large{
+        height: 520px;
+        margin-bottom: 20px;
+        overflow-x: hidden;
+        border:1px solid #ccc;
+        img{
+            width: 100%;
+        }
+    }
+    .small{
+        height: 130px;
+        display: flex;
+        .icon{
+            width: 27px;
+            line-height: 130px;
+            text-align: center;
+            cursor:pointer;
+        }
+        .center{
+            width:730px;
+            position: relative;
+            overflow: hidden;
+            .imgList{
+                position: absolute;
+                margin: 0;
+                padding:0;
+                //float: left;
+                min-width: 100%;
+                white-space:nowrap;
+                li{
+                    display: inline-block;
+                    width: 130px;
+                    height: 130px;
+                    list-style: none;
+                    margin-right: 20px;
+                    overflow: hidden;
+                    border:1px solid #ccc;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .selectLi{
+                    border:3px solid rgba(42,153,226,1);
+                }
+            }
+        }
+    }
+}
