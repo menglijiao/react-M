@@ -1,90 +1,63 @@
 import React, { Component } from 'react';
 import {findDOMNode} from 'react-dom'
 import ModalHoc from './../Public/HOC/index';
-import {Icon,Button,Modal,Progress} from 'antd';
-import styles from './css.less';
+import {Button,Table,message } from 'antd';
+import { Resizable } from 'react-resizable';
+import moment from 'moment';
+import style from './css.less';
 
-const ButtonGroup = Button.Group;
+
+
 
 class LeanJs extends Component {
     constructor(props){
         super(props);
         this.state= {
-            percent: 0,
-        }
-    };
-    //后退
-    increase = () => {
-        let percent = this.state.percent + 10;
-        if (percent > 100) {
-            percent = 100;
-        }
-        this.setState({ percent });
-    };
+            bool:true
+        };
 
-    //快进
-    decline = () => {
-        let percent = this.state.percent - 10;
-        if (percent < 0) {
-            percent = 0;
-        }
-        this.setState({ percent });
-    };
-    //播放
-    start = ()=>{
-        const {percent} = this.state;
-        if(percent > 99){
-            return
-        }
-        this.timer = setInterval(()=>{
-            let percent = this.state.percent + 10;
-            if (percent > 100) {
-                percent = 100;
-                clearInterval(this.timer)
+    }
+    componentWillMount() {
+        let arr = [
+            {key:'1',data:['aa','bb','cc']},
+            {key:'2',data:['11','22','33']},
+            {key:'3',data:['qq','ww','ee']},
+            {key:'3',data:['qq','ww','ee']},
+            {key:'4',data:['true','false','nn']},
+            {key:'4',data:['true','false','nn']},
+        ];
+        arr.forEach((item,index,arr) => {
+            for(let i=arr.length-1;i>index;i--){
+                if(arr[i].key === item.key){
+                    arr.splice(i,1)
+                }
             }
-            console.log(percent)
-            this.setState({
-                percent,
-            });
-        },1000)
-    };
-
-    //暂停
-    curStop = ()=>{
-        clearInterval(this.timer)
-    };
-
-    //停止
-    stop = ()=>{
-        clearInterval(this.timer);
-        this.setState({
-            percent:0
         });
-    };
+        let bool = false;
+        let page = '';
+        let pageNumber = 10
+        // let data = bool?page:pageNumber;
+        let data = (bool && page) || pageNumber
+        console.log(data)
+        // console.log(arr)
 
 
-    componentWillUnmount () {
-        clearInterval(this.timer)
     }
 
-
-    componentWillMount(){}
-
-
+    click = ()=>{
+        let num = Math.PI
+        console.log(num)
+    };
     render(){
+        const {bool} = this.state;
         return (
-            <div style={{width:500,background:'#80ccc7'}}>
-                <Progress percent={this.state.percent} />
-                <ButtonGroup>
-                    <Button onClick={this.decline} children={"后退"} />
-                    <Button onClick={this.increase} children={"快进"} />
-                    <Button onClick={this.start} children={"播放"}/>
-                    <Button onClick={this.curStop} children={"暂停"}/>
-                    <Button onClick={this.stop} children={"停止"}/>
-                </ButtonGroup>
+            <div className="box">
+                <span className="a">测试a</span>
+                <span className="b">测试b</span>
             </div>
-
         )
     }
 }
 export default LeanJs;
+
+
