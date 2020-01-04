@@ -16,7 +16,7 @@ export default class Tab extends Component{
         }
     }
 
-    //如果在修改状态后又进行一次修盖状态，则此render渲染两次，content就渲染6次
+    //如果在修改状态后又进行一次修改状态，则此render渲染两次，content就渲染6次
     onChange = (key)=>{
         this.setState({
            key
