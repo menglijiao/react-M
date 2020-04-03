@@ -56,5 +56,10 @@ const meun = [
         name:'Redux',
         icon:'pie-chart',
     },
+    {
+        path: '/hooks',
+        name:'Hooks',
+        icon:'pie-chart',
+    },
 ];
 export default meun;

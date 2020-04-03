@@ -63,6 +63,11 @@ const routes = [
                 path: '/redux',
                 component: Loadable({ loader: () => import('./Components/TodoList/index'), loading: Loading })
             },
+            {
+                exact: true,
+                path: '/hooks',
+                component: Loadable({ loader: () => import('./Components/Hooks/index'), loading: Loading })
+            },
         ]
     }
 ];

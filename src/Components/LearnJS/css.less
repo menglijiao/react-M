@@ -13,12 +13,27 @@
 }
 
 .box{
-    background-color: #61dafb;
+    //background-color: #61dafb;
     margin: 10px;
     .a{
         color: red;
     }
     .b{
         background-color: orange;
+    }
+    p{
+        color:red
+    }
+    p:nth-child(1){
+        background-color: #cccccc;
+        color:blue
+    }
+    p:nth-child(1) ~ p{
+        background-color: #61dafb;
+        color:blue
+    }
+    p:nth-child(3) ~ p {
+        background-color: #DA6467;
+        color:#fff;
     }
 }

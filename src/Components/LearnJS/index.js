@@ -1,82 +1,73 @@
 import React, { Component } from 'react';
 import {findDOMNode} from 'react-dom'
 import ModalHoc from './../Public/HOC/index';
-import {Button,Table,message } from 'antd';
+import { Table } from 'antd';
 // import { Resizable } from 'react-resizable';
 import moment from 'moment';
+import Data from '../Public/data'
 import style from './css.less';
+
+import One from './One';
+import Two from './Two'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 class LeanJs extends Component {
-    constructor(props){
-        super(props);
-        this.state= {
-            type: 'one'
-        };
-
-    }
-    componentWillMount() {
-
-
-    }
-
-    cutType = (type)=>{
-        this.setState({
-            type:type
-        });
+    //
+    selectOnChange = (selectedRowKeys, selectedRows)=>{
+        console.log(selectedRowKeys, selectedRows)
     };
-    nodeRender = (type)=>{
-        switch (type) {
-            case 'one':
-                return (
-                    <div className="a">
-                        <h3>类型一</h3>
-                        <h3>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</h3>
-                    </div>
-                );
-            case 'two':
-                return (
-                    <div className="b">
-                        <div>类型二</div>
-                        <div>额的热</div>
-                        <div>发发发</div>
-                        <div>哎哎哎</div>
-                        <div>滚滚滚</div>
-                        <div>哈哈哈</div>
-                    </div>
-                );
-            case 'three':
-                return (
-                    <div>
-                        <span>类型三</span>
-                    </div>
-                );
-            default:
-                return null
+    getCheckboxProps = (record)=>{
+        return {
+            disabled: record.name === 'Disabled User',
+            name: record.name,
         }
     };
     render(){
-        const {type} = this.state;
-        let allHide = false;//是否隐藏
-        let isHide = false;//是否隐藏
-        let show1 = true;//是否显示
-        let show2 = true;//是否显示
+        const columns = [
+            {
+                title: '名称',
+                dataIndex: 'title',
+                key: 'title',
+            },
+            {
+                title: '数量',
+                dataIndex: 'count',
+                key: 'count',
+                width: '12%',
+            },
+            {
+                title: '内容',
+                dataIndex: 'text',
+                key: 'text',
+                width: '30%',
+            },
+        ];
         return (
-            <div className="box">
-                <Button.Group>
-                    <Button onClick={()=>this.cutType('one')}>切换1</Button>
-                    <Button onClick={()=>this.cutType('two')}>切换2</Button>
-                    <Button onClick={()=>this.cutType('three')}>切换3</Button>
-                </Button.Group>
-                {this.nodeRender(type)}
-                <hr/>
-                {
-                    !allHide && !isHide && (show1 || show2)?
-                        <div>组件</div>:null
-                }
-            </div>
+                <Table
+                    columns={columns}
+                    dataSource={Data.tableListData}
+                    pagination={false}
+                    rowSelection={{
+                        onChange: this.selectOnChange,
+                        getCheckboxProps: this.getCheckboxProps,
+                    }}
+                />
         )
     }
 }
