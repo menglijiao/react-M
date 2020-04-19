@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="213ce3ed-26e1-4118-ad0e-a7bd1ee3138e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/Buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/hooks/useHandValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LearnJS/One.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LearnJS/Three.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LearnJS/Two.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Public/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hooks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/One.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/One.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/Two.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/Two.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/css.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/css.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Main/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TodoList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TodoList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/reduce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -127,16 +120,78 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1373586653">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="10" />
+          <entry key="json" value="1" />
+          <entry key="less" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="10" />
+          <entry key="Less" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="988" />
+          <entry key="less" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="988" />
+          <entry key="Less" value="26" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.533829">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="512">
-                  <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+                <state relative-caret-position="132">
+                  <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                    <element signature="e#92#139#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/css.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -144,16 +199,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/index.js">
+            <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+                <state relative-caret-position="154">
+                  <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                    <element signature="e#237#265#0" expanded="true" />
-                    <element signature="e#1383#1834#0" />
+                    <element signature="e#0#50#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -173,8 +226,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>paths</find>
-      <find>less</find>
       <find>babel-loader</find>
       <find>__dirname</find>
       <find>path.resolve</find>
@@ -188,7 +239,6 @@
       <find>appIndexJs</find>
       <find>HtmlWebpackPlugin</find>
       <find>getStyleLoaders</find>
-      <find>react-loadable</find>
       <find>ConfigProvider</find>
       <find>react-router-redux</find>
       <find>history</find>
@@ -203,6 +253,9 @@
       <find>age</find>
       <find>expandedRowKeys</find>
       <find>address</find>
+      <find>react-loadable</find>
+      <find>LearnJs</find>
+      <find>route</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,14 +264,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/Components/Tab/Content/css.less" />
         <option value="$PROJECT_DIR$/src/Components/Tab/Content/One/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Tab/Content/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Public/HOC/css.less" />
         <option value="$PROJECT_DIR$/src/Components/Public/HOC/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/LearnJS/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/LearnJS/css.less" />
         <option value="$PROJECT_DIR$/src/Components/Public/imgList.js" />
         <option value="$PROJECT_DIR$/src/Components/ImgShow/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
@@ -243,7 +292,6 @@
         <option value="$PROJECT_DIR$/src/Reducers/reduce.js" />
         <option value="$PROJECT_DIR$/src/Components/TodoList/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Main/menu.js" />
-        <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/hookser.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/Example.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/ceshier.js" />
@@ -256,12 +304,17 @@
         <option value="$PROJECT_DIR$/src/Components/LearnJs/Three.js" />
         <option value="$PROJECT_DIR$/src/Components/LearnJs/Two.js" />
         <option value="$PROJECT_DIR$/src/Components/LearnJs/css.less" />
-        <option value="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" />
         <option value="$PROJECT_DIR$/src/Components/LearnJs/One.js" />
-        <option value="$PROJECT_DIR$/src/Components/Hooks/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/hooks/useHandValue.js" />
         <option value="$PROJECT_DIR$/src/Components/Public/data.js" />
         <option value="$PROJECT_DIR$/src/Components/LearnJs/index.js" />
+        <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/src/Components/LearnJS/Two.js" />
+        <option value="$PROJECT_DIR$/src/Components/LearnJS/css.less" />
+        <option value="$PROJECT_DIR$/src/Components/LearnJS/One.js" />
+        <option value="$PROJECT_DIR$/src/Components/LearnJS/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/Hooks/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" />
       </list>
     </option>
   </component>
@@ -281,11 +334,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="914" />
-    <option name="y" value="40" />
-    <option name="width" value="1013" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -295,6 +348,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +359,11 @@
             <path>
               <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-M" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-M" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,7 +377,7 @@
               <item name="react-M" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnJs" type="462c0819:PsiDirectoryNode" />
+              <item name="Hooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
@@ -331,13 +390,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="lea&#9;FILE&#9;file://C:/Users/Administrator/Desktop/react-M/src/Components/LearnJs" />
+    <property name="SearchEverywhereHistoryKey" value="hooks&#9;null&#9;null&#10;routes&#9;FILE&#9;file://F:/react-M/src/routes.js&#10;lea&#9;FILE&#9;file://C:/Users/Administrator/Desktop/react-M/src/Components/LearnJs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../临时保存/欢迎使用CSDN-markdown编辑器.html" />
+    <property name="last_opened_file_path" value="F:/临时保存/欢迎使用CSDN-markdown编辑器.html" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -525,6 +583,9 @@
       <workItem from="1585555498511" duration="1651000" />
       <workItem from="1585707837021" duration="4729000" />
       <workItem from="1585881502845" duration="8287000" />
+      <workItem from="1587181378023" duration="689000" />
+      <workItem from="1587198933708" duration="7982000" />
+      <workItem from="1587270096880" duration="9516000" />
     </task>
     <task id="LOCAL-00001" summary="[修改]：修改记忆的位置">
       <created>1569461771732</created>
@@ -593,13 +654,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565376000" />
+    <option name="totallyTimeSpent" value="583563000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" weight="0.19464286" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" weight="0.19405204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5010917" side_tool="true" weight="0.19637139" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -613,7 +674,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33333334" side_tool="true" weight="0.44367817" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" weight="0.24454148" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" weight="0.24306688" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -681,13 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="436" column="8" selection-start-line="436" selection-start-column="8" selection-end-line="436" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -709,13 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
           <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -823,24 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TodoList/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -864,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/Two.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Public/imgList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -878,17 +905,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/Three.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/Three.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -899,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Hooks/hooks/useHandValue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -913,41 +926,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/One.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/index.js">
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="-4290">
+          <caret line="85" column="85" lean-forward="true" selection-start-line="85" selection-start-column="85" selection-end-line="85" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1851">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-649">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/Two.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/One.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#237#265#0" expanded="true" />
-            <element signature="e#1383#1834#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#92#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

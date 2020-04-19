@@ -12,36 +12,36 @@ class Two extends Component {
 
     }
 
-    componentDidMount() {
-        console.log('Two的componentDidMount')
-
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.log('Two的componentWillReceiveProps')
-    }
-
-    shouldComponentUpdate(nextProps, nextState) {
-        console.log('Two的shouldComponentUpdate')
-        return true
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-        console.log('Two的componentWillUpdate')
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-        console.log('Two的componentDidUpdate')
-    }
+    // componentDidMount() {
+    //     console.log('Two的componentDidMount')
+    //
+    // }
+    //
+    // componentWillReceiveProps(nextProps) {
+    //     console.log('Two的componentWillReceiveProps')
+    // }
+    //
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     console.log('Two的shouldComponentUpdate')
+    //     return true
+    // }
+    //
+    // componentWillUpdate(nextProps, nextState) {
+    //     console.log('Two的componentWillUpdate')
+    // }
+    //
+    // componentDidUpdate(prevProps, prevState) {
+    //     console.log('Two的componentDidUpdate')
+    // }
 
     componentWillUnmount() {
-        console.log('Two的componentWillUnmount')
+        console.log('Two的卸载componentWillUnmount')
     }
 
     render() {
         return (
-            <div>
-                Two
+            <div style={{fontSize:20,background:'red'}}>
+                two
             </div>
         );
     }
