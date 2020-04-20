@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="213ce3ed-26e1-4118-ad0e-a7bd1ee3138e" name="Default Changelist" comment="[修改]：2020-04-19" />
+    <list default="true" id="213ce3ed-26e1-4118-ad0e-a7bd1ee3138e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,8 +54,8 @@
     <session id="-994447683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="121" />
-          <entry key="project.open.time.0" value="66" />
+          <entry key="project.closed" value="122" />
+          <entry key="project.open.time.0" value="67" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="2" />
@@ -65,19 +68,19 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="124" />
+          <entry key="project.opened" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="24480" />
+          <entry key="js" value="24501" />
           <entry key="less" value="536" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="24480" />
+          <entry key="JavaScript" value="24501" />
           <entry key="Less" value="536" />
           <entry key="PLAIN_TEXT" value="50" />
         </counts>
@@ -113,7 +116,7 @@
     <session id="-1373586653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.77" value="1" />
@@ -138,52 +141,28 @@
         <counts>
           <entry key="js" value="988" />
           <entry key="less" value="26" />
-          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="988" />
           <entry key="Less" value="26" />
-          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react-M" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.533829">
+    <splitter split-orientation="horizontal" split-proportion="0.18811235">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
+            <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#0#49#0" expanded="true" />
-                    <element signature="e#92#139#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/css.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                <state relative-caret-position="13">
+                  <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -193,12 +172,13 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
+            <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <state relative-caret-position="451">
+                  <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
                   <folding>
-                    <element signature="e#0#50#0" expanded="true" />
+                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#249#277#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -299,7 +279,6 @@
         <option value="$PROJECT_DIR$/src/Components/LearnJs/One.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/hooks/useHandValue.js" />
         <option value="$PROJECT_DIR$/src/Components/Public/data.js" />
-        <option value="$PROJECT_DIR$/src/Components/LearnJs/index.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/Components/LearnJS/Two.js" />
         <option value="$PROJECT_DIR$/src/Components/LearnJS/css.less" />
@@ -307,6 +286,7 @@
         <option value="$PROJECT_DIR$/src/Components/LearnJS/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" />
+        <option value="$PROJECT_DIR$/src/Components/LearnJs/index.js" />
       </list>
     </option>
   </component>
@@ -326,7 +306,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="32" />
     <option name="width" value="1382" />
@@ -340,7 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,12 +355,20 @@
               <item name="react-M" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnJs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-M" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,7 +564,8 @@
       <workItem from="1585881502845" duration="8287000" />
       <workItem from="1587181378023" duration="689000" />
       <workItem from="1587198933708" duration="7982000" />
-      <workItem from="1587270096880" duration="9828000" />
+      <workItem from="1587270096880" duration="9516000" />
+      <workItem from="1587377188952" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="[修改]：修改记忆的位置">
       <created>1569461771732</created>
@@ -642,27 +630,36 @@
       <option name="project" value="LOCAL" />
       <updated>1578101442217</updated>
     </task>
-    <task id="LOCAL-00010" summary="[修改]：2020-04-19">
-      <created>1587310105612</created>
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/autumnLeaves-lady/react-M&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Components/LearnJS/index.js">
+      <created>1587377136129</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1587310105612</updated>
+      <updated>1587377136129</updated>
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="583875000" />
+    <option name="totallyTimeSpent" value="584040000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" weight="0.19405204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837837" visible="true" weight="0.13691416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5010917" side_tool="true" weight="0.19637139" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5016216" side_tool="true" weight="0.1937862" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
@@ -672,8 +669,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33333334" side_tool="true" weight="0.44367817" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" visible="true" weight="0.24306688" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33438653" side_tool="true" visible="true" weight="0.16" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6656135" visible="true" weight="0.16" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -693,8 +690,8 @@
     <MESSAGE value="[修改]：11-08" />
     <MESSAGE value="[修改]：12-13" />
     <MESSAGE value="[修改]：2020-01-04" />
-    <MESSAGE value="[修改]：2020-04-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="[修改]：2020-04-19" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/autumnLeaves-lady/react-M&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Components/LearnJS/index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/autumnLeaves-lady/react-M&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Components/LearnJS/index.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Components/Tab/Content/index.js">
@@ -905,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/Three.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/Three.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
@@ -923,13 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -954,54 +944,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/Two.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/Two.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/css.less">
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/One.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/One.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LearnJS/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="286">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#92#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="13">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#92#139#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#249#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
