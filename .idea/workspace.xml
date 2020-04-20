@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="213ce3ed-26e1-4118-ad0e-a7bd1ee3138e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hooks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/One.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/One.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/Two.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/Two.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/css.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/css.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-    </list>
+    <list default="true" id="213ce3ed-26e1-4118-ad0e-a7bd1ee3138e" name="Default Changelist" comment="[修改]：2020-04-19" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -123,7 +113,7 @@
     <session id="-1373586653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.77" value="1" />
@@ -148,12 +138,14 @@
         <counts>
           <entry key="js" value="988" />
           <entry key="less" value="26" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="988" />
           <entry key="Less" value="26" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -177,8 +169,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+                <state relative-caret-position="192">
+                  <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#49#0" expanded="true" />
                     <element signature="e#92#139#0" expanded="true" />
@@ -203,8 +195,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                <state relative-caret-position="44">
+                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
                   <folding>
                     <element signature="e#0#50#0" expanded="true" />
                   </folding>
@@ -585,7 +577,7 @@
       <workItem from="1585881502845" duration="8287000" />
       <workItem from="1587181378023" duration="689000" />
       <workItem from="1587198933708" duration="7982000" />
-      <workItem from="1587270096880" duration="9516000" />
+      <workItem from="1587270096880" duration="9828000" />
     </task>
     <task id="LOCAL-00001" summary="[修改]：修改记忆的位置">
       <created>1569461771732</created>
@@ -650,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578101442217</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[修改]：2020-04-19">
+      <created>1587310105612</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587310105612</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="583563000" />
+    <option name="totallyTimeSpent" value="583875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="0" />
@@ -674,7 +673,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33333334" side_tool="true" weight="0.44367817" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" weight="0.24306688" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" visible="true" weight="0.24306688" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -694,7 +693,8 @@
     <MESSAGE value="[修改]：11-08" />
     <MESSAGE value="[修改]：12-13" />
     <MESSAGE value="[修改]：2020-01-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="[修改]：2020-01-04" />
+    <MESSAGE value="[修改]：2020-04-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="[修改]：2020-04-19" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Components/Tab/Content/index.js">
@@ -985,23 +985,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#92#139#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/ShowArea.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Hooks/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#92#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
