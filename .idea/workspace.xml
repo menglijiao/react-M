@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="213ce3ed-26e1-4118-ad0e-a7bd1ee3138e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/Buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/ShowArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/hooks/useHandValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Hooks/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LearnJS/One.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LearnJS/Three.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LearnJS/Two.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Public/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/css.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/css.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LearnJS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LearnJS/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Main/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TodoList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TodoList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/reduce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +53,7 @@
     <session id="-994447683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="121" />
+          <entry key="project.closed" value="123" />
           <entry key="project.open.time.0" value="66" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="2" />
@@ -79,24 +64,24 @@
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="8" />
           <entry key="project.open.time.6" value="15" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="124" />
+          <entry key="project.opened" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="24480" />
+          <entry key="js" value="25458" />
           <entry key="less" value="536" />
-          <entry key="txt" value="50" />
+          <entry key="txt" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="24480" />
+          <entry key="JavaScript" value="25458" />
           <entry key="Less" value="536" />
-          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -129,14 +114,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.2696156">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="512">
-                  <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+                <state relative-caret-position="213">
+                  <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -144,16 +129,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="81">
-                  <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+                  <caret line="125" column="29" lean-forward="true" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
-                    <element signature="e#237#265#0" expanded="true" />
-                    <element signature="e#1383#1834#0" />
+                    <element signature="e#714#1155#0" />
                   </folding>
                 </state>
               </provider>
@@ -282,9 +266,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="914" />
+    <option name="x" value="770" />
     <option name="y" value="40" />
-    <option name="width" value="1013" />
+    <option name="width" value="1157" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -294,45 +278,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-M" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-M" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-M" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-M" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnJs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-M" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-M" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="lea&#9;FILE&#9;file://C:/Users/Administrator/Desktop/react-M/src/Components/LearnJs" />
@@ -524,7 +470,8 @@
       <workItem from="1585096325807" duration="573000" />
       <workItem from="1585555498511" duration="1651000" />
       <workItem from="1585707837021" duration="4729000" />
-      <workItem from="1585881502845" duration="8287000" />
+      <workItem from="1585881502845" duration="8888000" />
+      <workItem from="1586133475023" duration="10894000" />
     </task>
     <task id="LOCAL-00001" summary="[修改]：修改记忆的位置">
       <created>1569461771732</created>
@@ -589,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578101442217</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[修改]：2020-04-03">
+      <created>1585907818899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585907818899</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565376000" />
+    <option name="totallyTimeSpent" value="576871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -611,9 +565,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33333334" side_tool="true" weight="0.44367817" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" weight="0.24454148" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6666667" weight="0.24432433" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -633,7 +587,8 @@
     <MESSAGE value="[修改]：11-08" />
     <MESSAGE value="[修改]：12-13" />
     <MESSAGE value="[修改]：2020-01-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="[修改]：2020-01-04" />
+    <MESSAGE value="[修改]：2020-04-03" />
+    <option name="LAST_COMMIT_MESSAGE" value="[修改]：2020-04-03" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Components/Tab/Content/index.js">
@@ -917,9 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,27 +879,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Public/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="213">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/LearnJs/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <caret line="125" column="29" lean-forward="true" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#237#265#0" expanded="true" />
-            <element signature="e#1383#1834#0" />
+            <element signature="e#714#1155#0" />
           </folding>
         </state>
       </provider>
