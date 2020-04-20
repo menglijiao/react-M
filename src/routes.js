@@ -16,7 +16,7 @@ const routes = [
             {
                 exact: true,
                 path: '/LearnJs',
-                component: Loadable({ loader: () => import('./Components/LearnJs/index'), loading: Loading })
+                component: Loadable({ loader: () => import('./Components/LearnJS/index'), loading: Loading })
             },
             {
                 exact: true,

@@ -23,9 +23,9 @@ class One extends Component {
     //
     // }
     //
-    // componentWillReceiveProps(nextProps) {
-    //     console.log('one的componentWillReceiveProps')
-    // }
+    componentWillReceiveProps(nextProps) {
+        console.log('one的componentWillReceiveProps')
+    }
     //
     // shouldComponentUpdate(nextProps, nextState) {
     //     console.log('one的shouldComponentUpdate')
@@ -40,9 +40,9 @@ class One extends Component {
     //     console.log('one的componentDidUpdate')
     // }
     //
-    // componentWillUnmount() {
-    //     console.log('one的componentWillUnmount')
-    // }
+    componentWillUnmount() {
+        console.log('one卸载的componentWillUnmount')
+    }
     event = ()=>{
         let value = Math.random()
         this.setState({
@@ -57,9 +57,8 @@ class One extends Component {
 
     render() {
         return (
-            <div>
-                <Button onClick={this.event}>改变value</Button>
-                <p>{this.state.value}</p>
+            <div style={{fontSize:20,background:"blue"}}>
+                one
             </div>
         );
     }
