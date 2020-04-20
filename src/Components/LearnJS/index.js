@@ -26,7 +26,7 @@ class LeanJs extends Component {
      * @return {*}
      */
     selectOnChange = (selectedRowKeys, selectedRows)=>{
-        console.log(selectedRowKeys, selectedRows)
+        console.log(selectedRowKeys, selectedRows);
         this.setState({
             selectedRowKeys:selectedRowKeys
         });
@@ -40,7 +40,7 @@ class LeanJs extends Component {
      * @return {*}
      */
     onSelect = (record, selected, selectedRows, nativeEvent)=>{
-        console.log(record, selected, selectedRows, nativeEvent)
+        console.log(record, selected, selectedRows, nativeEvent);
     };
     /**
      * 用户手动选择/取消选择所有行的回调（只在点击标题的复选框时触发）
