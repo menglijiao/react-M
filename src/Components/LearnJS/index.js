@@ -60,35 +60,40 @@ class LeanJs extends Component {
             },
         ];
         return (
-                <Table
-                    columns={columns}
-                    dataSource={Data.tableListData}
-                    pagination={false}
-                    rowSelection={{
-                        selectedRowKeys,
-                        onChange: this.selectOnChange,
-                        hideDefaultSelections: true,
-                        selections: [
-                            {
-                                key: 'all-data',
-                                text: '选择第一章的数据',
-                                onSelect: () => {
-                                    const keys = Data.tableListData.map(item=>{
-                                        if(item.key.charAt(0) === '1'){
-                                            return item.key
-                                        }else{
-                                            return false
-                                        }
-                                    })
-                                    console.log(keys)
-                                    // this.setState({
-                                    //     selectedRowKeys: [...Array(46).keys()], // 0...45
-                                    // });
-                                },
-                            }
-                        ],
-                    }}
-                />
+            <div>
+                {/*<Table*/}
+                {/*columns={columns}*/}
+                {/*dataSource={Data.tableListData}*/}
+                {/*pagination={false}*/}
+                {/*rowSelection={{*/}
+                {/*selectedRowKeys,*/}
+                {/*onChange: this.selectOnChange,*/}
+                {/*hideDefaultSelections: true,*/}
+                {/*selections: [*/}
+                {/*{*/}
+                {/*key: 'all-data',*/}
+                {/*text: '选择第一章的数据',*/}
+                {/*onSelect: () => {*/}
+                {/*const keys = Data.tableListData.map(item=>{*/}
+                {/*if(item.key.charAt(0) === '1'){*/}
+                {/*return item.key*/}
+                {/*}else{*/}
+                {/*return false*/}
+                {/*}*/}
+                {/*})*/}
+                {/*console.log(keys)*/}
+                {/*// this.setState({*/}
+                {/*//     selectedRowKeys: [...Array(46).keys()], // 0...45*/}
+                {/*// });*/}
+                {/*},*/}
+                {/*}*/}
+                {/*],*/}
+                {/*}}*/}
+                {/*/>*/}
+                <One type='one'/>
+            </div>
+
+
         )
     }
 }
