@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {findDOMNode} from 'react-dom'
 import ModalHoc from './../Public/HOC/index';
-import { Table,Button } from 'antd';
+import { Table,Button,Icon } from 'antd';
 import classnames  from 'classnames';
 // import { Resizable } from 'react-resizable';
 import moment from 'moment';
@@ -23,28 +23,24 @@ class LeanJs extends Component {
     constructor(){
         super();
         this.state = {
-            selectedRowKeys:[]
+            filteredValue:null
         }
     }
-    /**
-     * 选中项发生变化时的回调(点击所有的复选框都触发)
-     * @param {array} selectedRowKeys 选中的key值数组
-     * @param {array} selectedRows 选中的数据数组
-     * @return {*}
-     */
-    selectOnChange = (selectedRowKeys, selectedRows)=>{
-        console.log(selectedRowKeys, selectedRows);
-        this.setState({
-            selectedRowKeys:selectedRowKeys
-        });
-    };
+
     render(){
-        const {selectedRowKeys} = this.state;
+        const {filteredValue} = this.state;
+        console.log(filteredValue)
         const columns = [
             {
                 title: '名称',
                 dataIndex: 'title',
                 key: 'title',
+                onFilter: (value, record) => {
+                    return record.title.indexOf(value) > -1
+                },
+                filters: [{text: '第一章数据', value: '第一章'}, {text: '第二章数据', value: '第二章'}],
+                filteredValue:filteredValue,
+                filtered:true
             },
             {
                 title: '数量',
@@ -60,35 +56,18 @@ class LeanJs extends Component {
             },
         ];
         return (
+            <div>
+                <Button onClick={()=>this.setState({filteredValue:['第一章']})}>第一章的数据</Button>
+                <Button onClick={()=>this.setState({filteredValue:['第一章-第一节']})}>第一章第一节的数据</Button>
+                <Button onClick={()=>this.setState({filteredValue:['第二章']})}>第二章的数据</Button>
+                <Button onClick={()=>this.setState({filteredValue:[]})}>清空</Button>
                 <Table
                     columns={columns}
                     dataSource={Data.tableListData}
                     pagination={false}
-                    rowSelection={{
-                        selectedRowKeys,
-                        onChange: this.selectOnChange,
-                        hideDefaultSelections: true,
-                        selections: [
-                            {
-                                key: 'all-data',
-                                text: '选择第一章的数据',
-                                onSelect: () => {
-                                    const keys = Data.tableListData.map(item=>{
-                                        if(item.key.charAt(0) === '1'){
-                                            return item.key
-                                        }else{
-                                            return false
-                                        }
-                                    })
-                                    console.log(keys)
-                                    // this.setState({
-                                    //     selectedRowKeys: [...Array(46).keys()], // 0...45
-                                    // });
-                                },
-                            }
-                        ],
-                    }}
                 />
+            </div>
+
         )
     }
 }
