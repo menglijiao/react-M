@@ -5,65 +5,37 @@ import PropTypes from 'prop-types';
 
 
 
-class One extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            value:0
-        }
-    }
 
-    componentWillMount() {
-        console.log('one的componentWillMount')
 
-    }
 
-    // componentDidMount() {
-    //     console.log('one的componentDidMount')
-    //
-    // }
-    //
-    componentWillReceiveProps(nextProps) {
-        console.log('one的componentWillReceiveProps')
-    }
-    //
-    // shouldComponentUpdate(nextProps, nextState) {
-    //     console.log('one的shouldComponentUpdate')
-    //     return true
-    // }
-    //
-    // componentWillUpdate(nextProps, nextState) {
-    //     console.log('one的componentWillUpdate')
-    // }
-    //
-    // componentDidUpdate(prevProps, prevState) {
-    //     console.log('one的componentDidUpdate')
-    // }
-    //
-    componentWillUnmount() {
-        console.log('one卸载的componentWillUnmount')
-    }
-    event = ()=>{
-        let value = Math.random()
-        this.setState({
-            value
-        },()=>{
-            this.handValue(value)
-        })
-    };
-    handValue = (data)=>{
-        console.log(data)
-    };
 
-    render() {
-        return (
-            <div style={{fontSize:20,background:"blue"}}>
-                one
-            </div>
-        );
-    }
+
+
+
+// class One extends Component {
+//     render() {
+//         const {type,data} = this.props;
+//         console.log(type,data)
+//         return (
+//             <div>
+//                 {this.props.type}
+//             </div>
+//
+//         );
+//     }
+// }
+function One(props){
+    const {type,data} = props;
+    console.log(type,data)
+    return <h1>one</h1>
 }
 
-One.propTypes = {};
+
+One.propTypes = {
+    type:'type的默认值',
+    data:'默认数据'
+};
 
 export default One;
+
+
