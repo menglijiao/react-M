@@ -28,5 +28,6 @@ yarn-error.log*
 # IntelliJ project files
 .idea
 *.iml
+*.xml
 out
 gen
