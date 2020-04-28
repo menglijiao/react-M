@@ -1,15 +1,24 @@
-import React, { useState,useMemo } from 'react';
+import React, { useState,useEffect,useLayoutEffect,useMemo,useCallback } from 'react';
 import {Button} from "antd";
 
 
-export default function ShowArea({one,two}) {
-    const res=useMemo(()=>{
-        return {one,two}
-    },[one,two]);
+function ShowArea(props) {
+    const {visible} = props;
+    const [one,setOne] = useState(0);
+
+    useEffect(()=>{
+        console.log('useEffect 1')
+    });
+    console.log(useState(0))
+    if(!visible) return null;
+
+    // useEffect(()=>{
+    //     console.log('useEffect 2')
+    // });
     return (
         <div>
-            <p>useMemo-one:{res.one}</p>
-            <p>useMemo-two:{res.two}</p>
+            子组件
         </div>
     )
 }
+export default ShowArea
