@@ -10,9 +10,6 @@ function ShowArea(props) {
     });
     if(!visible) return null;
 
-    let res = useMemo(()=>{
-        return visible
-    });
     return (
         <div>
             组件

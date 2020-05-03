@@ -29,7 +29,6 @@ class LeanJs extends Component {
 
     render(){
         const {filteredValue} = this.state;
-        console.log(filteredValue)
         const columns = [
             {
                 title: '名称',
@@ -57,15 +56,16 @@ class LeanJs extends Component {
         ];
         return (
             <div>
-                <Button onClick={()=>this.setState({filteredValue:['第一章']})}>第一章的数据</Button>
-                <Button onClick={()=>this.setState({filteredValue:['第一章-第一节']})}>第一章第一节的数据</Button>
-                <Button onClick={()=>this.setState({filteredValue:['第二章']})}>第二章的数据</Button>
-                <Button onClick={()=>this.setState({filteredValue:[]})}>清空</Button>
-                <Table
-                    columns={columns}
-                    dataSource={Data.tableListData}
-                    pagination={false}
-                />
+                {/*<Button onClick={()=>this.setState({filteredValue:['第一章']})}>第一章的数据</Button>*/}
+                {/*<Button onClick={()=>this.setState({filteredValue:['第一章-第一节']})}>第一章第一节的数据</Button>*/}
+                {/*<Button onClick={()=>this.setState({filteredValue:['第二章']})}>第二章的数据</Button>*/}
+                {/*<Button onClick={()=>this.setState({filteredValue:[]})}>清空</Button>*/}
+                {/*<Table*/}
+                    {/*columns={columns}*/}
+                    {/*dataSource={Data.tableListData}*/}
+                    {/*pagination={false}*/}
+                {/*/>*/}
+                <Two/>
             </div>
 
         )
