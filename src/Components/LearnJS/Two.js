@@ -29,7 +29,6 @@ class Two extends Component {
         // console.log('Two的componentWillMount')
 
     }
-
     // componentDidMount() {
     //     console.log('Two的componentDidMount')
     //
@@ -56,27 +55,23 @@ class Two extends Component {
     // }
 
     event = ()=>{
-        //创建promise
+
         function wait(ms) {
             return new Promise(function (resolve,reject) {
                 setTimeout(function () {
-                    resolve(ms)
-                    reject(ms)
+                    resolve(ms);
                 },ms)
             })
         }
-        console.log('开始计时')
-        //使用promise
-        wait(1000).then((time)=>{
-            console.log(`第一次通过${time}毫秒`)
-            return Promise.reject
-        },(time)=>{
-            console.log(`第一次失败${time}`)
-        }).then(()=>{
-            console.log('第二次通过')
-        },()=>{
-            console.log('第二次失败')
-        })
+
+        console.log('开始计时');
+        setTimeout(()=>{
+            console.log('定时器');
+            wait(1000).then((time)=>{
+                console.log(`第一次通过${time}毫秒`)
+            })
+        },1000);
+
 
 
 
