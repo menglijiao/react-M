@@ -17,8 +17,6 @@ import PropTypes from 'prop-types';
 
 
 
-
-
 class Two extends Component {
     constructor(props) {
         super(props);
@@ -59,20 +57,29 @@ class Two extends Component {
         function wait(ms) {
             return new Promise(function (resolve,reject) {
                 setTimeout(function () {
-                    resolve(ms);
+                    reject(ms);
                 },ms)
             })
         }
 
-        console.log('开始计时');
-        setTimeout(()=>{
-            console.log('定时器');
-            wait(1000).then((time)=>{
-                console.log(`第一次通过${time}毫秒`)
+        wait(1000)
+            .then((time)=>{
+                console.log(`第一次通过${time}毫秒`);
+            },()=>{
+                console.log('第1次调用失败')
+                return wait(1000)
             })
-        },1000);
-
-
+            .then(()=>{
+                console.log('第2次调用then')
+            },()=>{
+                console.log('第2次调用失败')
+                return wait(1000)
+            })
+            .then(()=>{
+                console.log('第3次调用then');
+            },()=>{
+                console.log('第3次调用失败')
+            })
 
 
 
