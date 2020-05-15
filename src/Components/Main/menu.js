@@ -61,5 +61,10 @@ const meun = [
         name:'Hooks',
         icon:'pie-chart',
     },
+    {
+        path: '/Style',
+        name:'样式',
+        icon:'pie-chart',
+    },
 ];
 export default meun;

@@ -8,7 +8,7 @@ import moment from 'moment';
 import Data from '../Public/data'
 import style from './css.less';
 
-import One from './One';
+// import One from './One';
 import Two from './Two'
 
 

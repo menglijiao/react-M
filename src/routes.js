@@ -68,6 +68,11 @@ const routes = [
                 path: '/hooks',
                 component: Loadable({ loader: () => import('./Components/Hooks/index'), loading: Loading })
             },
+            {
+                exact: true,
+                path: '/Style',
+                component: Loadable({ loader: () => import('./Components/Style/index'), loading: Loading })
+            },
         ]
     }
 ];

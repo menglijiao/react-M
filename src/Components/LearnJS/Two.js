@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Button } from 'antd';
+import {Button,Modal } from 'antd';
 import PropTypes from 'prop-types';
+import One from './One';
 
 
 
@@ -22,6 +23,9 @@ import PropTypes from 'prop-types';
 class Two extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            visible:false
+        }
 
     }
 
@@ -56,21 +60,35 @@ class Two extends Component {
 
     event = ()=>{
 
-        function wait(ms) {
-            return new Promise(function (resolve,reject) {
-                setTimeout(function () {
-                    resolve(ms);
-                },ms)
-            })
-        }
+        // function wait(ms) {
+        //     return new Promise(function (resolve,reject) {
+        //         setTimeout(function () {
+        //             resolve(ms);
+        //         },ms)
+        //     })
+        // }
+        //
+        // console.log('开始计时');
+        // setTimeout(()=>{
+        //     console.log('定时器');
+        //     wait(1000).then((time)=>{
+        //         console.log(`第一次通过${time}毫秒`)
+        //     })
+        // },1000);
 
-        console.log('开始计时');
-        setTimeout(()=>{
-            console.log('定时器');
-            wait(1000).then((time)=>{
-                console.log(`第一次通过${time}毫秒`)
-            })
-        },1000);
+        setTimeout(function() {
+            console.log(1)
+        }, 0);
+        new Promise(function(resolve){
+            console.log(2);
+            for( var i=0 ; i<10 ; i++ ) {
+                i === 9 && resolve();
+            }
+            console.log(3);
+        }).then(function() {
+            console.log(4);
+        });
+        console.log(5);
 
 
 
@@ -89,11 +107,27 @@ class Two extends Component {
 
 
     };
+
+    open = ()=>{
+        this.one.open()
+    };
+    close = ()=>{
+        this.setState({
+            visible:false
+        });
+    };
     render() {
+        // const {visible} = this.state;
         return (
-            <Button onClick={this.event}>
-                two
-            </Button>
+            <div>
+                <Button onClick={this.open}>
+                    two
+                </Button>
+                <One
+                    ref={el=>this.one = el}
+                    type={Math.random()}
+                />
+            </div>
         );
     }
 }
