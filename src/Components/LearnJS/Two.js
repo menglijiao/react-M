@@ -19,7 +19,6 @@ import One from './One';
 
 
 
-
 class Two extends Component {
     constructor(props) {
         super(props);
@@ -60,35 +59,29 @@ class Two extends Component {
 
     event = ()=>{
 
-        // function wait(ms) {
-        //     return new Promise(function (resolve,reject) {
-        //         setTimeout(function () {
-        //             resolve(ms);
-        //         },ms)
-        //     })
-        // }
-        //
-        // console.log('开始计时');
-        // setTimeout(()=>{
-        //     console.log('定时器');
-        //     wait(1000).then((time)=>{
-        //         console.log(`第一次通过${time}毫秒`)
-        //     })
-        // },1000);
+        function wait(ms) {
+            return new Promise(function (resolve,reject) {
+                setTimeout(function () {
+                    resolve(ms);
+                },ms)
+            })
+        }
 
-        setTimeout(function() {
-            console.log(1)
-        }, 0);
-        new Promise(function(resolve){
-            console.log(2);
-            for( var i=0 ; i<10 ; i++ ) {
-                i === 9 && resolve();
-            }
-            console.log(3);
-        }).then(function() {
-            console.log(4);
-        });
-        console.log(5);
+        wait(1000).then((time)=>{
+            console.log(`1已等待${time}毫秒`);
+            throw  new Error('我异常了')
+        }).then((time)=>{
+            console.log(`2已等待${time}毫秒`);
+            return wait(time)
+        }).catch((err)=>{
+            console.log('捕获异常',err);
+            return Promise.resolve(1000)
+        }).then((time)=>{
+            console.log(`3已等待${time}毫秒`);
+            return wait(time)
+        }).then((time)=>{
+            console.log(`4已等待${time}毫秒`)
+        })
 
 
 
@@ -106,27 +99,25 @@ class Two extends Component {
 
 
 
-    };
 
-    open = ()=>{
-        this.one.open()
-    };
-    close = ()=>{
-        this.setState({
-            visible:false
-        });
+
+
+
+
+
+
     };
     render() {
         // const {visible} = this.state;
         return (
             <div>
-                <Button onClick={this.open}>
+                <Button onClick={this.event}>
                     two
                 </Button>
-                <One
-                    ref={el=>this.one = el}
-                    type={Math.random()}
-                />
+                {/*<One*/}
+                    {/*ref={el=>this.one = el}*/}
+                    {/*type={Math.random()}*/}
+                {/*/>*/}
             </div>
         );
     }
