@@ -1,0 +1,51 @@
+{
+  "_from": "ezuikit-js@^0.2.4",
+  "_id": "ezuikit-js@0.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-ro/vEgUvIc+7qrGloxsdxLdgD7V9hCVAgxddy9pZzMxJKm+Gy6qNjwGVLt0TmZ8HhcVvVMZpRoxWE2538tinYA==",
+  "_location": "/ezuikit-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ezuikit-js@^0.2.4",
+    "name": "ezuikit-js",
+    "escapedName": "ezuikit-js",
+    "rawSpec": "^0.2.4",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ezuikit-js/-/ezuikit-js-0.2.4.tgz",
+  "_shasum": "d70fdee515d89418a1ebe5bafc0747a7f7ab714e",
+  "_spec": "ezuikit-js@^0.2.4",
+  "_where": "F:\\react项目-学习\\react-M",
+  "author": {
+    "name": "yujianbo"
+  },
+  "bugs": {
+    "url": "https://github.com/Hikvision-Ezviz/EZUIKit-JavaScript-npm/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "ezuikit javascript for npm",
+  "homepage": "https://github.com/Hikvision-Ezviz/EZUIKit-JavaScript-npm#readme",
+  "keywords": [
+    "video",
+    "ezuikit"
+  ],
+  "license": "ISC",
+  "main": "ezuikit.js",
+  "name": "ezuikit-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hikvision-Ezviz/EZUIKit-JavaScript-npm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.4"
+}

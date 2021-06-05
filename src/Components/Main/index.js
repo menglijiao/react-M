@@ -109,6 +109,7 @@ export default class Components extends Component{
                             </Breadcrumb>
                             <Switch>
                                 {routes.map((route, i) => {
+                                    console.log('route: ', route);
                                     return (
                                         <Route
                                             key={i}
