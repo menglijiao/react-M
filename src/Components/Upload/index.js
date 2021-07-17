@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Upload, Icon, Modal } from 'antd';
+import { Upload, Modal } from 'antd';
 import './css.less';
 
 //异步读取文件
@@ -74,7 +74,6 @@ export default class App extends Component {
                 >
                     {fileList.length >= 3 ? null : (
                             <div>
-                                <Icon type="plus" />
                                 <div className="ant-upload-text">Upload</div>
                             </div>
                         )}

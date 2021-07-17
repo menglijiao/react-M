@@ -6,7 +6,6 @@ function ShowArea(props) {
     const {visible} = props;
 
     useEffect(()=>{
-        console.log('useEffect 1')
     });
     if(!visible) return null;
 

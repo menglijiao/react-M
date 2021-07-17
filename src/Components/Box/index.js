@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import { Upload, Icon, Modal,Button,Carousel  } from 'antd';
+import { Upload, Modal,Button,Carousel  } from 'antd';
 import './css.less';
 
 function getBase64(file) {
@@ -75,7 +75,6 @@ export default class Box extends Component{
         const {previewVisible1, previewVisible, previewImage1,previewImage, fileList } = this.state;
         const uploadButton = (
             <div>
-                <Icon type="plus" />
                 <div className="ant-upload-text">Upload</div>
             </div>
         );

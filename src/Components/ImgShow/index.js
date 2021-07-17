@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {findDOMNode} from 'react-dom'
 import ModalHoc from './../Public/HOC/index';
 import imgList from './../Public/imgList'
-import {Icon,Button,Modal} from 'antd';
+import {Button,Modal} from 'antd';
 import styles from './css.less';
 
 class ImgShow extends Component {
@@ -77,7 +77,7 @@ class ImgShow extends Component {
                     </div>
                     <div className="small">
                         <span className="icon" onClick={()=>this.move('left')}>
-                            <Icon type="left" />
+                            <Button>左边</Button>
                         </span>
                         <div className="center" ref={ref => this.showDiv = ref}>
                             <ul
@@ -97,7 +97,7 @@ class ImgShow extends Component {
                             </ul>
                         </div>
                         <span className="icon" onClick={()=>this.move('right')}>
-                            <Icon type="right" />
+                        <Button>右边</Button>
                         </span>
                     </div>
                 </Modal>

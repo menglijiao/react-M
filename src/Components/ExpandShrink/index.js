@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Icon } from 'antd';
+import { Button } from 'antd';
 // import { TopOn, TopOff } from 'src/Data/imgJsx';
 import style from './index.less';
 
@@ -62,7 +62,7 @@ function ExpandShrink(WrappedComponent1,WrappedComponent2) {
                                     {WrappedComponent1}
                                 </div>
                                 <div>
-                                    <Icon type={'left'} onClick={clickCallback}/>
+                                    <Button onClick={clickCallback}/>
                                 </div>
                                 <div style={{width:newRightWidth,display:bottomDisplay}}>
                                     {WrappedComponent2}

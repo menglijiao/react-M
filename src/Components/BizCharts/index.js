@@ -90,7 +90,6 @@ export default class BizCharts extends Component {
             key: "月份",// key字段，承载横坐标文本的字段
             value: "月均降雨量" // value字段，承载纵坐标数据的字段
         });
-        console.log(dv)
         return (
             <div>
                 <Chart

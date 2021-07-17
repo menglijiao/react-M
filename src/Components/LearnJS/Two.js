@@ -1,20 +1,17 @@
 import React from 'react';
-import  EZUIKit from 'ezuikit-js';
+import EZUIKit from 'ezuikit-js';
 
 import './App.css';
 
-
-class App extends React.Component{
-  constructor(props){
+class App extends React.Component {
+  constructor(props) {
     super(props);
     this.playr = null; //定义播放器
   }
-  componentDidMount(){
-
+  componentDidMount() {
     // 直播
-    const player1 = new EZUIKit.EZUIPlayer('myPlayer1');
-    player1.on('log');
-
+    // const player1 = new EZUIKit.EZUIPlayer('myPlayer1');
+    // player1.on('log');
 
     // 监控
     // const decoder = new EZUIKit.EZUIPlayer({
@@ -29,26 +26,31 @@ class App extends React.Component{
     //   // handleSuccess: handleSuccess,
     // });
     // decoder.on('log');
-
-    
   }
-  render(){
-    return(
+  render() {
+    return (
       <div className="demo">
         <h2>视频模式使用示例：</h2>
 
         {/* 监控 */}
-        <video id="myPlayer1" autoPlay
-              src="https://flvopen.ys7.com:9188/openlive/b7f69a71d5ca497c999946cab080c4c0.flv" controls playsInline
-              webkit-playsinline>
-            </video>
-            <iframe src="http://127.0.0.1:5500/monitor.html" width="800" height="500" frameborder="0"></iframe>
+        <video
+          id="myPlayer1"
+          autoPlay
+          src="https://flvopen.ys7.com:9188/openlive/b7f69a71d5ca497c999946cab080c4c0.flv"
+          controls
+          playsInline
+          webkit-playsinline
+        ></video>
+        <iframe
+          src="http://127.0.0.1:5500/monitor.html"
+          width="800"
+          height="500"
+          frameborder="0"
+        ></iframe>
         {/* <div id="playWind" style={{width: '400px',height: '300px',backgroundColor: 'aquamarine'}}></div> */}
-
       </div>
-    )
+    );
   }
 }
-
 
 export default App;
